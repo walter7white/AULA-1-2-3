@@ -1,15 +1,15 @@
-
 body {
-    font-family: ProtestGuerrilla-Regular;
-    background-color: black;
-    
+    background-color: bisque;
+    font-family: Bai Jamjuree;
 }
+
 #container {
-    display:flex ;
+    display: flex; /* Elementos dispostos em linha */
 }
+
 .cartao {
     margin: 1rem 1rem;
-    background-color: black;
+    background-color: aqua;
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
